@@ -1,7 +1,8 @@
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   line-height: 1;
+  font-weight: bold;
 }
 
 textarea{
@@ -41,18 +42,18 @@ h1 {
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color:white;
   color: #000000;
-  border-top: 1px dashed black; 
-  border-bottom: 1px dashed black; 
-  border-left: 1px dashed black; 
+  border-top: 1px ; 
+  border-bottom:1px ; 
+  border-left: 1px ; 
   padding: 10px;
 }
 
 /* Colors for past, present and future columns */
 .past {
   background-color:rgb(206, 206, 235);
-  color: white;
+  color:black;
 }
 
 .present {
@@ -62,7 +63,7 @@ h1 {
 
 .future {
   background-color: rgba(7, 236, 7, 0.404);
-  color: white;
+  color: black;
 }
 
 /* Styling for save & delete buttons */

@@ -1,9 +1,7 @@
 // Moment script
 var m = moment();
 
-// 
-
-// Day, date, time
+// Set Day, date,and time
 $("#currentDay").text(moment().format('LLLL'));
 
 
@@ -17,7 +15,7 @@ function colorChange () {
     var currentTime = moment().hours();
     console.log("Current Time" + currentTime);
        
-// How the blocks know if they are past, present or future
+//  past, present or future button functionality 
     $(".input").each(function () {
         var scheduledTime = parseInt($(this).attr("id"));
         console.log(scheduledTime);
@@ -37,7 +35,7 @@ function colorChange () {
         }
     });
 }
-// Button functionality, variables for on save button click, .val() is where the text goes
+// Button function
 var eventText;
 var eventTime;
 
