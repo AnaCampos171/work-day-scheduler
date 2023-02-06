@@ -27,5 +27,5 @@ Many Thanks to the UCR Coding Bootcamp Academic team and my wonderful classmates
 N/A
 
 ## Link to deployed application: 
-https://anacampos171.github.io/work-day-scheduler
+https://anacampos171.github.io/work-day-scheduler/
 
